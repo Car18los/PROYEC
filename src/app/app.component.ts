@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PROYECTOX';
+  title1 = 'EJEMPLO 34'
+  texto1='un gatita que le gusta el manbo'
 }
