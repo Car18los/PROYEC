@@ -9,6 +9,7 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { DetalleHeroeComponent } from './components/detalle-heroe/detalle-heroe.component';
+import { PageErrorComponent } from './components/shared/page-error/page-error.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DetalleHeroeComponent } from './components/detalle-heroe/detalle-heroe.
     BuscadorComponent,
     AboutComponent,
     HeroesComponent,
-    DetalleHeroeComponent
+    DetalleHeroeComponent,
+    PageErrorComponent
   ],
   imports: [
     BrowserModule,

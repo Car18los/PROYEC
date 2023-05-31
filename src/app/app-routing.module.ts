@@ -4,6 +4,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { DetalleHeroeComponent } from './components/detalle-heroe/detalle-heroe.component';
+import { PageErrorComponent } from './components/shared/page-error/page-error.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,9 @@ const routes: Routes = [
   },
   {
     path: 'detalle' , component: DetalleHeroeComponent
+  },
+  {
+    path: '**' , component:PageErrorComponent
   }
   
 
