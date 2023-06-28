@@ -1,0 +1,16 @@
+.contenedor::-webkit-scrollbar{
+    width:7px;
+    
+}
+.contenedor::-webkit-scrollbar-thumb{
+    background: #00ccff ;
+    border-radius: 5px;
+}
+
+.card-photo{
+    cursor:pointer;
+}
+
+.card-photo:hover{
+    border: 1px solid #333;
+}

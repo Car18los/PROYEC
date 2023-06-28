@@ -7,6 +7,7 @@ import { DetalleHeroeComponent } from './components/detalle-heroe/detalle-heroe.
 import { PageErrorComponent } from './components/shared/page-error/page-error.component';
 
 const routes: Routes = [
+  {path:'', redirectTo:'home', pathMatch:'full'},
   {
     path: 'home' , component: HomeComponent
   },
@@ -17,7 +18,7 @@ const routes: Routes = [
     path: 'heroes' , component: HeroesComponent
   },
   {
-    path: 'detalle' , component: DetalleHeroeComponent
+    path: 'detalle/:id' , component: DetalleHeroeComponent
   },
   {
     path: '**' , component:PageErrorComponent
